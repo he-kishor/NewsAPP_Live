@@ -1,3 +1,7 @@
+## NEWS APP
+I have created a React News App that connects to a third-party API. It includes a search option and allows users to select news based on regions.
+![image](https://github.com/user-attachments/assets/d2c28b70-3212-4d2c-b5f9-bba09740e4c8)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

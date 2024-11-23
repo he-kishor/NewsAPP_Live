@@ -1,0 +1,145 @@
+.navbar {
+    background-color: #fdff00; /* Light blue color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.container-fluid {
+    height: 80px;
+}
+.timefun-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    word-wrap: break-word; /* Ensure text wraps */
+    max-width: 100%; /* Ensure text doesn't overflow */
+}
+
+/* Media query for when the screen is less than or equal to half width (e.g., 50% of 1000px = 500px) */
+@media (max-width: 850px) {
+    .timefun-text {
+        display: none; /* Hide text when screen width is below 500px */
+    }
+}
+
+.navbar-brand{
+    margin: 0 auto;
+    top:-1px;
+    text-align:center;
+    display:block;
+    font-size:45px;
+    font-family:'Times New Roman', Times, serif;;
+    text-shadow: 
+    1px 1px 0 #000,   /* First shadow (offset by 1px, black) */
+    2px 2px 0 #333,   /* Second shadow (offset by 2px, darker gray) */
+    3px 3px 0 #666,   /* Third shadow (offset by 3px, gray) */
+    4px 4px 5px rgba(0, 0, 0, 0.3); /* Main shadow (offset by 4px, with blur) */
+    
+
+}
+  
+.imgtitle {
+    padding-bottom: 20px;
+    height: 95px;
+    margin-top: -10px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.navbar-toggler-container {
+    position: fixed; /* Fix the position to the top */
+    top: 0; /* Align to the top */
+    right:10px; /* Center horizontally */
+     /* Center horizontally by adjusting left position */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between text and button */
+    padding: 5px; /* Optional padding */
+    font-weight:bold;
+ }
+
+.explore-text {
+    font-size: 20px; /* Adjust text size as needed */
+    font-weight: bold; /* Make text bold */
+}
+.navbar-toggler{
+    width: 30px; /* Width of the button */
+    height: 30px; /* Height of the button */
+    padding: 5px;
+    border: 2px solid #000; /* Bold border */
+    border-radius: 5px; /* Optional: Rounded corners */
+     /* Background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.navbar-toggler-icon {
+    width: 20px; /* Adjust icon size if needed */
+    height: 20px;
+    font-weight: bold;
+    
+}
+
+.offcanvas.offcanvas-end{
+    width:200px;
+    max-width:80%;
+}
+
+
+.offcanvas-header{
+    background-color: #fdff00; 
+    justify-content:space-between;
+}
+.navbar-user-container{
+   position:absolute;
+   bottom:1px;
+   right:8px;
+   display:flex;
+   align-items:center;
+   padding:5px;
+   gap:5px;
+   font-weight:bold;
+   justify-content: center;
+}
+.navbar-User_sign{
+    border: None;
+    Background:None;
+    cursor: pointer;   
+    font-size: inherit;  
+    display: flex; /* Center the icon inside */
+    align-items: center; /* Vertically center the icon */
+    justify-content: center;                                    
+}
+.bi-person-circle{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

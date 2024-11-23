@@ -1,0 +1,27 @@
+.article-container{
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    top: 120px;
+    height: 10000px;
+    left: 350px;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0.5, 0, 0.2, 0.4); /* Subtle shadow */
+    overflow: hidden; /* Hide overflow to keep content within container */
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid{
+    padding: 15px;
+}
+.btn-warning{
+    background-color: #fdff00;
+    border-color: #fdff00;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.articlebox-main{
+    padding-top:20px;
+}

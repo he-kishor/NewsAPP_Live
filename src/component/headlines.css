@@ -1,0 +1,41 @@
+.Headline-components{
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    top: 120px;
+    left: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0.5, 0, 0.2, 0.4); /* Subtle shadow */
+    overflow: hidden; /* Hide overflow to keep content within container */
+    display: flex;
+    flex-direction: column;
+}
+.Headline-components .navbar{
+    justify-content:center;
+    background-color:#fdff00;
+    border-radius: 10px;
+    position: relative; /* Ensure navbar does not overlap other content */
+    z-index: 1; /* Make sure navbar is on top */
+}
+.navbar-brand-name{
+    font-family: 'Times New Roman', Times, serif; /* Roman typeface */
+    font-size: 24px; /* Adjust the size as needed */
+    color: black; /* Black text color */
+    font-weight: normal; /* Ensure normal weight for the Roman look */
+    text-decoration: none; /* Remove underline */
+    text-align:center;
+    display:block;
+    
+}
+.Headline-components .text-headlines{
+    padding:5px;
+    top:75px;
+    position:absolute;
+    flex: 1;
+    flex: 1; /* Allow this section to grow and fill available space */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds container height */
+    padding-right: 10px;  /* Add scrollbar if content exceeds available space */
+
+}

@@ -1,0 +1,60 @@
+.sidemenu-sidecomponents{
+    position: absolute;
+    padding: 10px;
+    margin: 10px;
+    top: 120px;
+    right: 20px;
+    width: 300px;
+    height:880px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0.5, 0, 0.2, 0.4); /* Subtle shadow */
+    overflow: hidden; /* Hide overflow to keep content within container */
+    display: flex;
+    flex-direction: column;
+}
+.sidemenu-sidecomponents .navbar{
+    justify-content:center;
+    background-color:#fdff00;
+    border-radius: 10px;
+    position: relative; /* Ensure navbar does not overlap other content */
+    z-index: 1; /* Make sure navbar is on top */
+}
+.navbar-brand-name{
+    font-family: 'Times New Roman', Times, serif; /* Roman typeface */
+    font-size: 24px; /* Adjust the size as needed */
+    color: black; /* Black text color */
+    font-weight: normal; /* Ensure normal weight for the Roman look */
+    text-decoration: none; /* Remove underline */
+    text-align:center;
+    display:block;
+    
+}
+.navbar-brand-name{
+    font-family: 'Times New Roman', Times, serif; /* Roman typeface */
+    font-size: 24px; /* Adjust the size as needed */
+    color: black; /* Black text color */
+    font-weight: normal; /* Ensure normal weight for the Roman look */
+    text-decoration: none; /* Remove underline */
+    text-align:center;
+    display:block;
+    
+}
+
+.sidemenu-sidecomponents .menutab{
+
+    margin:10px;
+    padding-top: 10px;
+}
+.sidemenu-sidecomponents .menutab .container-fluid .d-flex{
+    height:30px
+    
+}
+
+
+.img-menubar{
+    margin: 7px; 
+}
+.sidemenu-sidecomponents .dropdown-menu {
+    position: fixed;
+}

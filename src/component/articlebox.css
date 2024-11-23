@@ -1,0 +1,17 @@
+.card{
+    margin-top: 7px;
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center; /* Vertically centers the image */
+}
+
+.card-img-top {
+    max-width: 100%; /* Ensures the image doesn’t overflow its container */
+    object-fit: cover; /* Adjusts how the image fits within its container */
+}
+
+.articleboxurlheader{
+    text-decoration: none;
+}

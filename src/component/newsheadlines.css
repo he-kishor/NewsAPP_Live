@@ -1,0 +1,14 @@
+.newsheadlines .textshows {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    font-size: 16px; /* Set font size (optional, adjust as needed) */
+}
+
+.newsheadlines .textshows:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: black; /* Keep the color black on hover */
+}
+hr.new4 { 
+    border-top: 3px solid rgb(0, 0, 0); /* Set a solid black top border */
+  }
